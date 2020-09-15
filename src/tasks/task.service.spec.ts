@@ -4,9 +4,7 @@ import { TaskRepository } from './task.repository';
 import { GetTasksFilterDto } from './dto/filter-task.dto';
 import { TaskStatus } from './tasks-status.enum';
 import { NotFoundException } from '@nestjs/common';
-import mock = jest.mock;
-import { Task } from './task.entity';
-import exp from 'constants';
+
 
 const mockUser = {
   id: 12,
